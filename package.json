@@ -2,7 +2,17 @@
   "name": "wayfarer-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/bwarren/wayfarer-api.git"
+  },
+  "author": "A,B,K,M",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
@@ -12,15 +22,5 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "mongoose": "^5.7.12"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git.generalassemb.ly/bwarren/wayfarer-api.git"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
