@@ -13,7 +13,7 @@ db.User.findById(req.session.currentUser.id, (err, foundUser) => {
   });
 
     res.status(200).json({
-      statusL 200,
+      status: 200,
       data: {user: foundUser},
     })
   })
