@@ -1,53 +1,44 @@
 [
 	{
 		"name": "San Francisco, CA",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
+		"image": "https://robbreportedit.files.wordpress.com/2019/05/shutterstock_1114135229-e1557521635402.jpg?w=1000",
 		"posts": ["post1", "post2"]
 	},
 	{
 		"name": "Amsterdam, Netherlands",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://www.telegraph.co.uk/content/dam/insurance/2016/04/06/amsterdam.jpg?imwidth=450"
 	},
 	{
 		"name": "Dubai, UAE",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://imagevars.gulfnews.com/2019/07/23/Timberwolf_16c1de35555_base.jpg"
 	},
 	{
 		"name": "Sydney, Australia",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://rccl-h.assetsadobe.com/is/image/content/dam/royal/data/ports/sydney-australia/overview/sydney-australia-opera-house.jpg?$750x320$"
 	},
 	{
 		"name": "Vancouver, Canada",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://daily.sevenfifty.com/app/uploads/2017/11/SFD_48hrs_Vancouver2_CR_iStock_2520x1420.jpg"
 	},
 	{
 		"name": "Auckland, New Zealand",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://cdn.travelpulse.com/images/dd5c4cc9-abbc-9ba7-4469-06bd6f49f115/d81a1bd9-1f43-4282-b5b9-705015efcf72/630x355.jpg"
 	},
 	{
 		"name": "Vienna, Austria",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://271xf1284tbt2lxdg841m2ea-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/jacek-dylag-579742-unsplash-e1544460157768-720x340.jpg"
 	},
 	{
 		"name": "Munich, Germany",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4yB9RWxAAa0-uRyFu_0tO0RNPsxZDuyiD0G9Xpg4CeZjgR84p&s"
 	},
 	{
 		"name": "Zurich, Switzerland",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://cdn.britannica.com/44/102444-050-7260C54D/Zurich-Switzerland.jpg"
 	},
 	{
 		"name": "Melbourne, Australia",
-		"image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8tIuq-PvlAhWzHzQIHZAECogQjRx6BAgBEAQ&url=https%3A%2F%2Frobbreport.com%2Flifestyle%2Fnews%2Fsan-francisco-most-billionares-per-capita-2850280%2F&psig=AOvVaw28UmDSkgkFrBXtdoW1aFdX&ust=1574447546445592",
-		"posts": ["post1", "post2"]
+		"image": "https://www.webjet.com.au/travel/wp-content/uploads/2014/11/Brighton_Bathing_Boxes_Melbourne_Australia.jpg"
 	}
 ]
 

@@ -16,8 +16,3 @@ const CitySchema = mongoose.Schema({
 const City = mongoose.model('City', CitySchema);
 
 module.exports = City;
-
-
-
-// not sure if im referencing the posts properly since this is the same as my user model
-// how can i solved this? 
