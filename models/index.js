@@ -8,13 +8,13 @@ mongoose.connect(dbUrl, {
   useCreateIndex: true,
   useUnifiedTopology: true,
 })
-  .then(() => console.log('MongoDB connected...'))
+  .then(() => console.log('MongoDB connected Wayfarer...'))
   .catch((err) => console.log(`MongoDB connection error": ${err}`));
 
 
 module.exports = {
   User: require('./User'),
   City: require('./City'),
-  Post: require('./Post'),
+  Post: require('./Post')
   // Comment: require('./Comment'),
 };
