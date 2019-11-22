@@ -8,7 +8,7 @@ const CitySchema = mongoose.Schema({
   photo: String,
   posts: [{
     type: Schema.Types.ObjectId,
-    ref: 'City'
+    ref: 'Post'
 }],
 
 })

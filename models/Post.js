@@ -17,6 +17,10 @@ const PostSchema = mongoose.Schema({
     type: Schema.Types.ObjectId,
     ref: 'User'
   },
+  city: {
+    type:Schema.Types.ObjectId,
+    ref: 'City'
+  },
   content: {
     type: String,
     require: [true, 'Post content is required'],

@@ -16,5 +16,5 @@ module.exports = {
   User: require('./User'),
   City: require('./City'),
   Post: require('./Post'),
-  // Comment: require('./Comment'),
+  Comment: require('./Comment'),
 };
