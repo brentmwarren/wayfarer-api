@@ -5,7 +5,7 @@ const CitySchema = mongoose.Schema({
     type: String,
     require: [true, 'City name is required'],
   },
-  photo: String,
+  image: String,
   posts: [{
     type: Schema.Types.ObjectId,
     ref: 'Post'
