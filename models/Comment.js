@@ -12,6 +12,6 @@ const CommentSchema = mongoose.Schema({
 
 })
 
-const City = mongoose.model('Comment', CitySchema);
+const Comment = mongoose.model('Comment', CommentSchema);
 
 module.exports = Comment;
