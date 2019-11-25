@@ -1,10 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const PostSchema = mongoose.Schema({
-  city: {
-    type: Schema.Types.ObjectId,
-    ref: 'City'
-},
   title: {
     type: String,
     required: [true, 'Title is required'],
