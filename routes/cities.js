@@ -10,7 +10,4 @@ router.get('/all', ctrl.cities.showAllCities);
 // ADD new city
 router.post('/new', ctrl.cities.addCity);
 
-// DELETE all cities
-router.delete('/all', ctrl.cities.deleteAllCities)
-
 module.exports = router;
