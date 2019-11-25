@@ -69,12 +69,25 @@ const login = (req, res) => {
 };
 
 // POST Logout - Destroy Session
+// const logout = (req, res) => {
+//   if (!req.session.currentUser) return res.status(401).json({ status: 401, message: 'Unauthorized' });
+//   req.session.destroy((err) => {
+//     if (err) return res.status(500).json({ status: 500, message: 'Something went wrong. Please try again' });
+//     res.sendStatus(200);
+//   });
+// };
 const logout = (req, res) => {
-  if (!req.session.currentUser) return res.status(401).json({ status: 401, message: 'Unauthorized' });
-  req.session.destroy((err) => {
-    if (err) return res.status(500).json({ status: 500, message: 'Something went wrong. Please try again' });
-    res.sendStatus(200);
-  });
+  console.log(req.session)
+if (!req.session.currentUser)
+  return res.status(401).json({ status: 401, message: "Unauthorized" });
+req.session.destroy(err => {
+  if (err)
+    return res.status(500).json({
+      status: 500,
+      message: "Something went wrong. please try again"
+    });
+  res.sendStatus(200);
+});
 };
 
 // GET Verify Current User
