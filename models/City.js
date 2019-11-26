@@ -9,10 +9,8 @@ const CitySchema = mongoose.Schema({
   posts: [{
     type: Schema.Types.ObjectId,
     ref: 'Post'
-}],
-
+  }],
 })
 
 const City = mongoose.model('City', CitySchema);
-
 module.exports = City;

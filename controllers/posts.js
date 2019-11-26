@@ -2,19 +2,19 @@ const db = require('../models');
 
 // GET one post
 const show = (req, res) => {
-  db.Post.findById(req.params.id)
-  .populate('author')
-  .populate('city')
-  .exec((err, foundPost) => {
-      if(err) return res.status(500).json({
-          status: 500,
-          message: err
-      });
-      res.status(200).json({
-          status: 200,
-          data: foundPost
-      });
-  });
+    db.Post.findById(req.params.id)
+    .populate('author')
+    .populate('city')
+    .exec((err, foundPost) => {
+        if(err) return res.status(500).json({
+            status: 500,
+            message: err
+        });
+        res.status(200).json({
+            status: 200,
+            data: foundPost
+        });
+    });
 };
 
 // GET all posts
@@ -35,7 +35,7 @@ const showAll = (req, res) => {
 };
 
 const addPost = (req, res) => {
-    const postData = {...req.body, author: req.session.currentUser.id};
+    const postData = {...req.body, author: "5dd9d8df8c7c105a69e62bd3"};
     db.Post.create(postData, (error, createdPost)=>{
         if (error) return console.log(error);
         console.log('Successfully created post');
