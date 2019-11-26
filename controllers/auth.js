@@ -95,9 +95,21 @@ const verify = (req, res) => {
   if (!req.session.currentUser) return res.status(401).json({ status: 401, message: 'Unauthorized' });
   res.status(200).json({
     status: 200,
-     message: `Current User verified. User ID: ${req.session.currentUser.id}`
+    message: `Current User verified. User ID: ${req.session.currentUser.id}`
   });
 };
+// UPDATE
+
+const updateProfile = (req,res) => {
+  db.User.findByIdAndUpdate(req.params.uid, req.body, {new:true}, (error, updatedProfile)=>{
+    if(error) return console.log(error);
+    res.json({
+      status: 200,
+      data: updatedProfile,
+    })
+  })
+}
+
 
 
 module.exports = {
@@ -105,4 +117,5 @@ module.exports = {
   login,
   verify,
   logout,
+  updateProfile,
 };
