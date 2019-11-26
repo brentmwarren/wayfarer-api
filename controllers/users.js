@@ -19,7 +19,6 @@ db.User.findById(req.session.currentUser.id, (err, foundUser) => {
   })
 }
 
-
 module.exports = {
   show,
 }
