@@ -35,7 +35,7 @@ const showAll = (req, res) => {
 };
 
 const addPost = (req, res) => {
-    const postData = {...req.body, author: "5dd9d8df8c7c105a69e62bd3"};
+    const postData = {...req.body, author: "req.session.currentUser.id"};
     db.Post.create(postData, (error, createdPost)=>{
         if (error) return console.log(error);
         console.log('Successfully created post');
