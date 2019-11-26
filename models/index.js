@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-const dbUrl = process.env.MONGO_URI;
+const dbUrl = (process.env.MONGO_URI || 3000)
 
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
@@ -18,3 +18,4 @@ module.exports = {
   Post: require('./Post'),
   Comment: require('./Comment'),
 };
+
