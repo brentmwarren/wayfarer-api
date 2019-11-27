@@ -6,8 +6,9 @@ const ctrl = require('../controllers')
 
 router.get('/:id', ctrl.users.show);
 //GET Profile by ID
-router.get('/findById/:id', ctrl.users.show);
+
 //PUT Update Profile
-// router.put('/:id/update', ctrl.users.update);
+// router.put('/:id/', ctrl.users.update);
+// no need to write update after id/  left over django thoughts
 
 module.exports = router;

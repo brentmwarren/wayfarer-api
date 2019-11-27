@@ -3,8 +3,7 @@ const db = require('../models');
 // GET one post
 const show = (req, res) => {
     db.Post.findById(req.params.id)
-    .populate('author')
-    .populate('city')
+    .populate('author city')
     .exec((err, foundPost) => {
         if(err) return res.status(500).json({
             status: 500,
